@@ -74,6 +74,12 @@ button:focus-visible {
   color: #78917c;
 }
 
+.header-email {
+  margin-left: auto;
+  margin-right: 36px;
+  font-size: 17px;
+}
+
 .site-nav {
   display: flex;
   gap: 36px;
@@ -663,6 +669,11 @@ button:focus-visible {
 
   .header-inner {
     min-height: 68px;
+  }
+
+  .header-email {
+    margin-right: 12px;
+    font-size: 16px;
   }
 
   .menu-toggle {
