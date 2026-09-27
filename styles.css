@@ -812,7 +812,7 @@ li,
 .phone-greeting,
 .phone-sun {
   color: transparent;
-  background-image: linear-gradient(105deg, #344b43 0%, #5c567b 52%, #875665 100%);
+  background-image: linear-gradient(105deg, #344b43 0%, #536558 52%, #77634f 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
