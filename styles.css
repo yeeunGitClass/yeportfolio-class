@@ -22,7 +22,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 a {
@@ -64,7 +64,7 @@ button:focus-visible {
 }
 
 .wordmark {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: -1.5px;
 }
@@ -77,7 +77,7 @@ button:focus-visible {
 .header-email {
   margin-left: auto;
   margin-right: 36px;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .site-nav {
@@ -85,7 +85,7 @@ button:focus-visible {
   gap: 36px;
   align-items: center;
   color: #62635c;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .site-nav a,
@@ -114,7 +114,7 @@ button:focus-visible {
 .eyebrow {
   margin: 0 0 24px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 1.55px;
 }
@@ -131,10 +131,10 @@ button:focus-visible {
 
 .hero h1 {
   margin: 0;
-  font-size: clamp(48px, 6.2vw, 76px);
+  font-size: clamp(46px, 5.5vw, 68px);
   font-weight: 600;
-  letter-spacing: -4px;
-  line-height: 1.24;
+  letter-spacing: -3px;
+  line-height: 1.22;
 }
 
 .hero h1 span {
@@ -144,8 +144,8 @@ button:focus-visible {
 .hero-description {
   margin: 24px 0 28px;
   color: var(--muted);
-  font-size: 18px;
-  line-height: 1.9;
+  font-size: 20px;
+  line-height: 1.75;
 }
 
 .text-link {
@@ -154,7 +154,7 @@ button:focus-visible {
   gap: 12px;
   padding-bottom: 7px;
   border-bottom: 1px solid #a4afa3;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -219,13 +219,13 @@ button:focus-visible {
 
 .art-card-label {
   color: #77786f;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 1.4px;
 }
 
 .art-card strong {
-  font-size: 34px;
+  font-size: 36px;
   letter-spacing: -1.7px;
   line-height: 1.1;
 }
@@ -240,7 +240,7 @@ button:focus-visible {
   position: absolute;
   bottom: 30px;
   color: #767d70;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 2px;
 }
 
@@ -259,7 +259,7 @@ button:focus-visible {
 .section-heading h2,
 .contact h2 {
   margin: 0;
-  font-size: clamp(32px, 3.7vw, 44px);
+  font-size: clamp(32px, 3.5vw, 42px);
   font-weight: 600;
   letter-spacing: -1.8px;
   line-height: 1.45;
@@ -269,8 +269,8 @@ button:focus-visible {
   max-width: 470px;
   margin: 0 0 28px;
   color: var(--muted);
-  font-size: 17px;
-  line-height: 1.9;
+  font-size: 19px;
+  line-height: 1.75;
 }
 
 .experience {
@@ -285,17 +285,17 @@ button:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .experience-period {
   margin-bottom: 4px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .experience strong {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -319,7 +319,7 @@ button:focus-visible {
   border: 1px solid var(--line);
   border-radius: 99px;
   color: #66675f;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .projects {
@@ -341,7 +341,7 @@ button:focus-visible {
 .project-count {
   padding-bottom: 6px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 1px;
 }
 
@@ -381,7 +381,7 @@ button:focus-visible {
   right: 16px;
   bottom: 14px;
   color: rgb(36 37 31 / 52%);
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 1px;
 }
 
@@ -583,14 +583,14 @@ button:focus-visible {
   display: flex;
   justify-content: space-between;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
 .project-info h3 {
   margin: 12px 0 7px;
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 600;
   letter-spacing: -0.4px;
 }
@@ -599,8 +599,8 @@ button:focus-visible {
   min-height: 38px;
   margin: 0;
   color: var(--muted);
-  font-size: 15px;
-  line-height: 1.7;
+  font-size: 17px;
+  line-height: 1.6;
 }
 
 .project-tags {
@@ -610,7 +610,7 @@ button:focus-visible {
 
 .project-tags li {
   padding: 6px 9px;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .contact {
@@ -631,7 +631,7 @@ button:focus-visible {
 }
 
 .contact h2 {
-  font-size: clamp(34px, 4.2vw, 52px);
+  font-size: clamp(34px, 4vw, 48px);
   line-height: 1.35;
 }
 
@@ -639,7 +639,7 @@ button:focus-visible {
   flex: 0 0 auto;
   padding-bottom: 8px;
   border-bottom: 1px solid #a4afa3;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .contact-link span {
@@ -653,7 +653,7 @@ button:focus-visible {
   padding-top: 17px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 1px;
 }
 
@@ -673,7 +673,7 @@ button:focus-visible {
 
   .header-email {
     margin-right: 12px;
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .menu-toggle {
@@ -734,8 +734,8 @@ button:focus-visible {
   }
 
   .hero h1 {
-    font-size: clamp(50px, 12vw, 72px);
-    letter-spacing: -3px;
+    font-size: clamp(44px, 10.5vw, 62px);
+    letter-spacing: -2px;
   }
 
   .hero-art {
@@ -789,7 +789,7 @@ button:focus-visible {
   .contact-bottom {
     gap: 12px;
     flex-wrap: wrap;
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
