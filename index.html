@@ -108,7 +108,15 @@
           <span class="project-count">01 — 03</span>
         </div>
         <div class="project-grid">
-          <article class="project-card project-lilac">
+          <article
+            class="project-card project-lilac"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+            aria-controls="project-dialog"
+            aria-label="프로젝트 상세 보기: 모아 — 나만의 소비 기록"
+            data-project="0"
+          >
             <div class="project-visual visual-dashboard" aria-hidden="true">
               <div class="dash-window">
                 <div class="dash-top"><i></i><i></i><i></i></div>
@@ -130,7 +138,15 @@
             </div>
           </article>
 
-          <article class="project-card project-peach">
+          <article
+            class="project-card project-peach"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+            aria-controls="project-dialog"
+            aria-label="프로젝트 상세 보기: 오후의 물건 — 라이프스타일 숍"
+            data-project="1"
+          >
             <div class="project-visual visual-commerce" aria-hidden="true">
               <div class="shop-card">
                 <div class="shop-product"><span>OBJECT<br />NO. 08</span><i></i></div>
@@ -148,7 +164,15 @@
             </div>
           </article>
 
-          <article class="project-card project-mint">
+          <article
+            class="project-card project-mint"
+            role="button"
+            tabindex="0"
+            aria-haspopup="dialog"
+            aria-controls="project-dialog"
+            aria-label="프로젝트 상세 보기: 하루 — 마음을 돌보는 일기"
+            data-project="2"
+          >
             <div class="project-visual visual-mobile" aria-hidden="true">
               <div class="phone-frame">
                 <div class="phone-notch"></div>
@@ -170,6 +194,42 @@
           </article>
         </div>
       </section>
+
+      <dialog
+        class="project-dialog"
+        id="project-dialog"
+        aria-modal="true"
+        aria-labelledby="project-dialog-title"
+        aria-describedby="project-dialog-description project-dialog-example"
+      >
+        <div class="dialog-content">
+          <div class="dialog-heading">
+            <p class="eyebrow">PROJECT DETAILS</p>
+            <button class="dialog-close" type="button" aria-label="프로젝트 상세 정보 닫기">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <h2 id="project-dialog-title"></h2>
+          <p class="dialog-description" id="project-dialog-description"></p>
+          <p class="dialog-example" id="project-dialog-example">
+            아래 상세 정보는 기능 시연을 위한 예시이며 실제 프로젝트 정보가 아닙니다.
+          </p>
+          <dl class="dialog-details">
+            <div>
+              <dt>담당 역할</dt>
+              <dd id="project-dialog-role"></dd>
+            </div>
+            <div>
+              <dt>주요 성과</dt>
+              <dd id="project-dialog-outcome"></dd>
+            </div>
+          </dl>
+          <div class="dialog-tech-section">
+            <h3>사용 기술</h3>
+            <ul class="project-tags" id="project-dialog-technologies"></ul>
+          </div>
+        </div>
+      </dialog>
 
       <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
         <p class="eyebrow">LET'S MAKE SOMETHING GOOD</p>
